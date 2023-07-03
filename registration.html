@@ -64,7 +64,7 @@ function regUser()
 			}))
 		{
 		alert("Your Account already exists!!! Go to login!!!")
-		window.location.href = "login.html";
+		window.location.href = "index.html";
 		}
 	else
 		{
@@ -73,7 +73,7 @@ function regUser()
 				"email": email,
 				"password": password}) 
 				alert("Registration Successful! Go to Login Page")
-				window.location.href = "login.html";
+				window.location.href = "index.html";
 		}
 		 
 	localStorage.setItem("users",JSON.stringify(user_records))
